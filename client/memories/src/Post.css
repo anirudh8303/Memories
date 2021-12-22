@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+img {
+  width: 15rem;
+  border: 3px solid #ffff;
+  box-shadow: -3px 3px 0px 0 #64B5F6;
+  display: block;
+  height: 150px;
+}
+
+.card {
+  background: #64B5F6;
+  width: fit-content;
+  min-height: 14rem;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 0px 0px 0 #b0bec5;
+  position: relative;
+  box-shadow: #BBDEFB 5px 5px 0 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.card_image {
+  margin-left: -5rem;
+}
+
+.card_details {
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  color: #ffff;
+  text-align: center;
+  font-weight: bold;
+  font-family: Merriweather, serif;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 3rem;
+  color: #F5F5F5;
+}

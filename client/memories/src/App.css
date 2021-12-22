@@ -1,0 +1,13 @@
+.App  {
+}
+.app_middle {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.app_middleLeft {
+    flex: 0.6;
+}
+.app_middleRight {
+    flex: 0.2;
+}
